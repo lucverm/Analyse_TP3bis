@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe51c5e1-4f99-4077-8044-0825fdfd1bf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP3bis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/controller/IMainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Companys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/ICustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/IOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/IOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/IService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/IServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/IWallet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/PaymentMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/ServiceTitles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Services.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/StatusService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/model/Wallet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/program/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/utils/IUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/utils/SelectDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/utils/SelectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/utils/StaticLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/utils/StaticPassData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/utils/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Contested/ContestedFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Details/DetailsFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Echange/EchangeFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/History/HistoryFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Login/LoginFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/MainMenu/MainMenuFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Order/OrderFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Orders/OrdersFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Payback/PaybackFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Service/ServiceFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Services/ServicesFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/SwitchView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3/view/Wallet/WalletFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/META-INF/TP3bis.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/controller/IMainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP3bis/controller/IMainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP3bis/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/img/feuOrange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/img/feuRouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/img/feuVert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Alert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP3bis/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Dependencies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/IParticipant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/IProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/IProjectGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/IProjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/IProjectsGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/ITask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/ITaskGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/IUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Participant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/ProjectManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Projects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Roles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Supervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/program/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP3bis/program/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/AddProject/AddProject.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/AddProject/AddProjectFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/AddTask/AddTask.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/AddTask/AddTaskFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/Finance/Finance.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/Finance/FinanceFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/ListViewProject/ListViewProject.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/ListViewProject/ListViewProjectFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/ListViewTask/ListViewTask.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/ListViewTask/ListViewTaskFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/MainMenu/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP3bis/view/MainMenu/MainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/MainMenu/MainMenuFXController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP3bis/view/MainMenu/MainMenuFXController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/SwitchProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/SwitchTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP3bis/view/SwitchView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP3bis/view/SwitchView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/IWallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IWallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ServiceTitles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ServiceTitles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Echange/EchangeFXController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Echange/EchangeFXController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Order/OrderFXController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Order/OrderFXController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UnjWeCP3kzbLqOqWs2sf2i9LV6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\TEMP\Analyse_Septembre2020\TP3\src\img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="view.ListViewProject" />
+      <recent name="view.Finance" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\TEMP\Analyse_Septembre2020\TP3\src\view\History" />
+      <recent name="C:\TEMP\Analyse_Septembre2020\TP3\src\view\Login" />
+      <recent name="C:\TEMP\Analyse_Septembre2020\TP3\src\view\Service" />
+      <recent name="C:\TEMP\Analyse_Septembre2020\TP3\src\view\Contested" />
+      <recent name="C:\TEMP\Analyse_Septembre2020\TP3\src\view\Echange" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.Main" />
+      <module name="TP3bis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe51c5e1-4f99-4077-8044-0825fdfd1bf0" name="Default Changelist" comment="" />
+      <created>1575999285354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575999285354</updated>
+      <workItem from="1575999288254" duration="23824000" />
+      <workItem from="1576025264875" duration="1134000" />
+      <workItem from="1576048786182" duration="9604000" />
+      <workItem from="1576065907075" duration="21695000" />
+      <workItem from="1576098918958" duration="905000" />
+      <workItem from="1594390362592" duration="1492000" />
+      <workItem from="1594666599310" duration="3907000" />
+      <workItem from="1594715078677" duration="10621000" />
+      <workItem from="1594738556845" duration="2437000" />
+      <workItem from="1594743072339" duration="12722000" />
+      <workItem from="1594816686033" duration="8856000" />
+      <workItem from="1594891351741" duration="68000" />
+      <workItem from="1595083005892" duration="70000" />
+      <workItem from="1595619143632" duration="781000" />
+      <workItem from="1596445310321" duration="18000" />
+      <workItem from="1596445343035" duration="12329000" />
+      <workItem from="1596468128377" duration="15701000" />
+      <workItem from="1596531382327" duration="17344000" />
+      <workItem from="1596560521927" duration="2822000" />
+      <workItem from="1596617248776" duration="11665000" />
+      <workItem from="1596631442584" duration="1743000" />
+      <workItem from="1596633620507" duration="48000" />
+      <workItem from="1596633807909" duration="17892000" />
+      <workItem from="1596709439474" duration="5563000" />
+      <workItem from="1596727354838" duration="10596000" />
+      <workItem from="1596746065500" duration="6402000" />
+      <workItem from="1596753503749" duration="750000" />
+      <workItem from="1596789150518" duration="449000" />
+      <workItem from="1596789890876" duration="6227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3021" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1596655727036">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3021" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596655727036" />
+    <state x="2256" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596710787672">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2256" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596710787672" />
+    <state x="2946" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596634035599">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2946" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596634035599" />
+    <state x="2996" y="261" key="FileChooserDialogImpl" timestamp="1596479647996">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2996" y="261" key="FileChooserDialogImpl/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596479647996" />
+    <state width="1461" height="166" key="GridCell.Tab.0.bottom" timestamp="1596880443769">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="166" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1596878194782" />
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596789999736" />
+    <state width="1461" height="166" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1596880443769" />
+    <state width="1461" height="166" key="GridCell.Tab.0.center" timestamp="1596880443769">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="166" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1596878194782" />
+    <state width="1877" height="176" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596789999736" />
+    <state width="1461" height="166" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1596880443769" />
+    <state width="1461" height="166" key="GridCell.Tab.0.left" timestamp="1596880443769">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="166" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1596878194782" />
+    <state width="1877" height="176" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596789999734" />
+    <state width="1461" height="166" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1596880443769" />
+    <state width="1461" height="166" key="GridCell.Tab.0.right" timestamp="1596880443769">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="166" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1596878194782" />
+    <state width="1877" height="176" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596789999736" />
+    <state width="1461" height="166" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1596880443769" />
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1596753245800">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596753245800" />
+    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1596753245799">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596753245799" />
+    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1596753245799">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596753245799" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1596753245800">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596753245800" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1596752853879">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596752853879" />
+    <state x="2863" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596555108175">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2863" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596555108175" />
+    <state x="2761" y="174" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596457713213">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2761" y="174" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596457713213" />
+    <state x="2946" y="230" key="extract.method.dialog" timestamp="1596751909473">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2946" y="230" key="extract.method.dialog/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596751909473" />
+    <state x="2879" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596656481077">
+      <screen x="2256" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2879" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1504.963/2256.0.1920.1040@2256.0.1920.1040" timestamp="1596656481077" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

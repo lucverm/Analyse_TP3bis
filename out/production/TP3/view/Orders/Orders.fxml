@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <GridPane style="-fx-background-color: #ffffff;">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="193.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="195.0" minHeight="10.0" prefHeight="139.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="273.0" minHeight="10.0" prefHeight="268.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Commandes">
+                           <font>
+                              <Font size="38.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Gérez vos commandes">
+                           <font>
+                              <Font name="Tahoma" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #B2B2B2;">
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                           <children>
+                              <ImageView fitHeight="95.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../img/ticket.jpg" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <VBox prefHeight="76.0" prefWidth="626.0">
+                                 <children>
+                                    <HBox prefHeight="19.0" prefWidth="626.0">
+                                       <children>
+                                          <Label text="Vous pouvez encore commander">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="nbrTotalTS" text="470">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="titres cette année">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="21.0" prefWidth="626.0">
+                                       <children>
+                                          <Label text="dont" textFill="#9a9a9a" />
+                                          <Label fx:id="nbrTSNormal" text="370" textFill="#9a9a9a">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label text=" à 9,00 EUR" textFill="#9a9a9a" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="5.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox prefHeight="18.0" prefWidth="626.0">
+                                       <children>
+                                          <Label text="dont" textFill="#9a9a9a" />
+                                          <Label fx:id="nbrTSDixEuros" text="100" textFill="#9a9a9a">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label text="à 10,00 EUR" textFill="#9a9a9a">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </VBox>
+                           </children>
+                           <opaqueInsets>
+                              <Insets top="10.0" />
+                           </opaqueInsets>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#commandTS" text="Commandez">
+                           <VBox.margin>
+                              <Insets left="30.0" top="40.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Tahoma" size="15.0" />
+                           </font>
+                        </Button>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Hyperlink onAction="#payback" text="Demandez un remboursement" underline="true">
+                                 <font>
+                                    <Font name="Tahoma" size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="20.0" />
+                                 </HBox.margin>
+                              </Hyperlink>
+                              <Label text="ou">
+                                 <font>
+                                    <Font name="Tahoma" size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="25.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Hyperlink onAction="#echange" text="Demandez un échange" underline="true">
+                                 <font>
+                                    <Font name="Tahoma" size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="20.0" />
+                                 </HBox.margin>
+                              </Hyperlink>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+                     <children>
+                        <Label text="Historique des commandes">
+                           <font>
+                              <Font size="34.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TableView fx:id="tableViewOrders" prefHeight="200.0" prefWidth="200.0">
+                          <columns>
+                            <TableColumn fx:id="column1" prefWidth="141.3333511352539" text="Titres-Services" />
+                            <TableColumn fx:id="column2" prefWidth="127.99998474121094" text="Produit" />
+                              <TableColumn fx:id="column3" prefWidth="161.33331298828125" text="Date du paiement" />
+                              <TableColumn fx:id="column4" prefWidth="113.00003051757812" text="Montant" />
+                              <TableColumn fx:id="column5" prefWidth="115.33331298828125" text="Statut" />
+                          </columns>
+                           <VBox.margin>
+                              <Insets left="70.0" right="65.0" top="10.0" />
+                           </VBox.margin>
+                        </TableView>
+                        <Label text="*Double clic pour avoir des détails">
+                           <font>
+                              <Font name="System Italic" size="10.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="580.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#backToMenu" text="Retour">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="700.0" top="30.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

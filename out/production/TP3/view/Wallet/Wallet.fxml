@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <GridPane style="-fx-background-color: #ffffff;">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="179.0" minHeight="10.0" prefHeight="172.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="195.0" minHeight="10.0" prefHeight="148.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="287.0" minHeight="10.0" prefHeight="280.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Portefeuille">
+                           <font>
+                              <Font size="38.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Consultez le solde de vos titres-services électroniques et leur validités">
+                           <font>
+                              <Font name="Tahoma" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #B2B2B2;">
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                           <children>
+                              <ImageView fitHeight="95.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../img/Wallet.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets bottom="10.0" left="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <VBox prefHeight="76.0" prefWidth="626.0">
+                                 <children>
+                                    <HBox prefHeight="26.0" prefWidth="626.0">
+                                       <children>
+                                          <Label fx:id="nbrTS1" text="26">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="titres-services">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="24.0" prefWidth="626.0">
+                                       <children>
+                                          <Label fx:id="nbrTS2" text="26" textFill="#a8a8a8" />
+                                          <Label text="titres-services expirent dans" textFill="#a8a8a8">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label fx:id="nbrMonthsOut" text="9" textFill="#a8a8a8">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label text="mois" textFill="#a8a8a8">
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </VBox>
+                           </children>
+                           <opaqueInsets>
+                              <Insets top="10.0" />
+                           </opaqueInsets>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#commandTS" text="Commandez">
+                           <VBox.margin>
+                              <Insets left="30.0" top="40.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Tahoma" size="15.0" />
+                           </font>
+                        </Button>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Hyperlink onAction="#payback" text="Demandez un remboursement" underline="true">
+                                 <font>
+                                    <Font name="Tahoma" size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="20.0" />
+                                 </HBox.margin>
+                              </Hyperlink>
+                              <Label text="ou">
+                                 <font>
+                                    <Font name="Tahoma" size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="25.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Hyperlink onAction="#echange" text="Demandez un échange" underline="true">
+                                 <font>
+                                    <Font name="Tahoma" size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="20.0" />
+                                 </HBox.margin>
+                              </Hyperlink>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+                     <children>
+                        <Label text="Titres-Services">
+                           <font>
+                              <Font size="34.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TableView fx:id="tableViewWallet" prefHeight="200.0" prefWidth="200.0">
+                          <columns>
+                            <TableColumn fx:id="column1" prefWidth="330.0" text="Montant" />
+                            <TableColumn fx:id="column2" prefWidth="330.0" text="Date d'expiration" />
+                          </columns>
+                           <VBox.margin>
+                              <Insets left="70.0" right="67.0" top="20.0" />
+                           </VBox.margin>
+                        </TableView>
+                        <Button mnemonicParsing="false" onAction="#backToMenu" text="Retour">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="700.0" top="30.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>
